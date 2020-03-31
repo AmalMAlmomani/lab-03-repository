@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layouts.css">
+    <link rel="stylesheet" href="css/modules.css">
+    <title> Flexbox and Templating</title>
+
+<!-- -----------Script--------------- -->
+<script id="template" type="x-tmpl-mustache">
+        <section  class="{{keyword}}">
+        <h2>{{title}}</h2>
+        <p>{{horns}}<p>
+        <img src="{{image_url}}" alt="{{keyword}}" >
+        <p>{{description}}</p>
+        </section>
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>The Gallery of Horns</h1>
+
+        <select class="select">
+            <option value="default"> Filter by Keyword </option>
+        </select>
+        <!-- radio type -->
+       <div><label> <input type="radio" id="title" >Sort By Title</label></div>
+       <div><label><input type="radio" id="number">Sort By Number Of Horns</label></div>
+        <!-- button -->
+        <button id="button1">Page1</button>
+        <button id="button2">Page2</button>
+
+
+    </header>
+
+    <main>
+        <section id="photo-template" class="Image">
+            <img src="" alt="">
+            <h2></h2>
+            <p></p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2018 Code Fellows
+    </footer>
+
+
+    <script src="https://unpkg.com/mustache@latest"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
