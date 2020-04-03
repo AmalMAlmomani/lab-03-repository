@@ -1,12 +1,42 @@
-/* header{
-    font-family: 'Kavoon', cursive;
-    
+
+body{
+    background-color: rgb(253, 227, 251);
 }
+h1{
+    color: rgb(61, 7, 57);
+}
+
+h2{
+    color: rgba(104, 45, 100, 0.897) ;
+}
+
+
 footer{
-    padding-top: 10px;
-    margin-top: 70px;
-    color: rgb(148, 128, 128);
-    font-family: 'Nanum Pen Script', cursive;
-    text-align: center;
-    font-size: 30px;
-} */
+    color: rgb(61, 7, 57);
+}
+/* radio */
+#radioSorting{
+    color: rgba(104, 45, 100, 0.897) ;
+}
+
+.button{
+    background-color:rgb(70, 47, 68) ;
+    color:rgb(216, 210, 215) ;
+}
+
+/* select option */
+
+ select{
+    background-color: rgba(235, 205, 230, 0.918)  ;
+    color:rgb(53, 29, 51); 
+}
+
+/* script */
+#titleDes{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     color: rgb(39, 11, 35);
+}
+#numberHoens{
+    color: rgba(223, 205, 221, 0.897);
+    background-color:rgb(65, 35, 62);
+}
