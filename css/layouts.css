@@ -1,28 +1,81 @@
-/* section{
-    display: hidden;
-}
 
-
-div:first-child{
-    display: none;
-} */
-/* #select{
-    border: none;
-    margin-top: 50px;
-    padding: 10px;
-    font-size: x-large;
-    font-family: 'Nanum Pen Script', cursive;
-    background-color: rgb(90, 83, 82);
-    color: cornsilk;
+/* radio */
+#radioSorting{
     text-align: center;
- 
+    line-height: 30px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: x-large;
+    padding-top: 30px;
+    
 }
-#button1{
-    width: 40px;
-    height: 50px;
-} */
-main {
-    display: flex;
-    /* flex-wrap: wrap;
-    justify-content: center; */
+#titleS,#hornsS{
+    margin-right: 10px;
+}
+
+#hornsS{
+    margin-left: 100px;
+}
+/* button */
+#buttons{
+    
+    text-align: center;
+    margin-top: 30px;
+
+}
+.button{
+    font-family: 'Nanum Pen Script', cursive;
+    border: none;
+    border-radius: 10px;
+    font-size:25px;
+    padding: 5px 20px; 
+}
+#button2{
+    margin-left: 700px;
+}
+/* select option */
+
+ select{
+    font-family: 'Love Ya Like A Sister', cursive;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 510px;
+    padding: 10px 20px;     
+}
+#option{
+    text-align: center;
+    border: none;   
+}
+
+/* script */
+#box{
+    display: inline-block;
+ /* border: 3px solid rgb(61, 7, 57); */
+ margin-top: 30px;
+ margin-left: 50px;
+ width: 90px;
+ margin-right: 40px;
+ 
+} 
+#titleDes{
+    padding: 15px;
+    width: 130px;
+    margin-top: 5px;
+     border-radius: 5px;
+     font-family: 'Athiti', sans-serif;
+     font-weight: bold;
+     font-size: 15px;
+ 
+
+}
+#numberHoens{
+    margin-left: 60px;
+    border: 1px solid rgba(223, 205, 221, 0.897);
+    border-radius: 50%;
+    padding: 2px;
+    width:30px;
+    height: 20px;
+    text-align: center; 
+    line-height: 20px;
+
 }
